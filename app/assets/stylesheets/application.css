@@ -1,13 +1,20 @@
 body{
     background-color: white;
     margin: 0;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    line-height: 1.5;
 
+}
+
+p {
+    margin-top: 0em;
+    margin-bottom: 0.2em;
 }
 
 #app_window{
     width: 80%;
-    height: 800px;
-    background-color: #f8f8f8;
+    height: 1200px;
+    background-color: #fafafa;
     margin: auto;
     top: 10px;
     border-radius: 9px;
@@ -24,15 +31,15 @@ body{
 }
 
 #profile_photo{
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
     border-radius: 6px;
     background-image: url("on-chair.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
     left: 70px;
-    top: 60px;
+    top: 80px;
     border-left: 8px solid #f8f8f8;
     border-top: 8px solid #f8f8f8;
     border-bottom: 8px solid #f8f8f8;
@@ -43,42 +50,80 @@ body{
     width: 185px;
     height: 240px;
     background-size: 100%;
-    #position: absolute;
-    left: 0px;
+    position: absolute;
+    left: 75px;
     top: 0;
-    color: rgba(226, 255, 229, 0.98);
-    font-size: 30px;
+    color: rgba(30, 165, 181, 0.98);
+    font-size: 34px;
     border-top-right-radius: 9px;
     font-weight: bold;
     font-family: "Helvetica Neue", "Arial", sans-serif;
     padding-left: 10px;
     padding-right: 15px;
-    padding-top: 10px;
 }
 
 #title_surname{
     width: 633px;
-    height: 240px;
+    height: 215px;
     background-size: 100%;
     position: absolute;
-    left: 200px;
+    left: 270px;
     top: 0;
-    color: rgba(176, 143, 163, 0.93);
-    font-size: 30px;
+    color: rgba(33, 195, 213, 0.82);
+    font-size: 34px;
     border-top-right-radius: 9px;
     font-weight: bold;
     font-family: "Helvetica Neue", "Arial", sans-serif;
     padding-left: 5px;
     padding-right: 10px;
-    padding-top: 10px;
+}
+
+#welcome{
+    background-size: 100%;
+    position: absolute;
+    left: 210px;
+    top: 43px;
+    color: rgba(136, 131, 146, 0.82);
+    font-size: 12px;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+
+#welcome_hr{
+    width: 770px;
+    height: 215px;
+    background-size: 100%;
+    position: absolute;
+    left: 200px;
+    top: 67px;
+    color: rgba(186, 186, 186, 0.82);
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    border-top: 1px dashed;
 }
 
 #faqs{
-    width: 823px;
-    height: 500px;
+    width: 603px;
+    height: 600px;
     position: absolute;
-    left: 150px;
-    top: 270px;
+    left: 340px;
+    top: 80px;
+    font-family: verdana, arial, helvetica, sans-serif;
+
+}
+
+#question{
+    color: #1d97a7;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+
+}
+
+#answer{
+    color: gray;
+    font-size: 12px;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
