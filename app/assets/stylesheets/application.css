@@ -55,8 +55,8 @@ p {
     position: absolute;
     left: 75px;
     top: 0;
-    #color: rgba(30, 165, 181, 0.98);
-    color: rgba(183, 146, 165, 0.98);
+    #color: rgba(183, 146, 165, 0.98);
+    color: rgba(183, 147, 164, 0.98);
     font-size: 34px;
     border-top-right-radius: 9px;
     font-weight: bold;
@@ -73,7 +73,7 @@ p {
     left: 270px;
     top: 0;
     #color: rgba(33, 195, 213, 0.82);
-    color: rgba(201, 167, 183, 0.82);
+    color: rgba(189, 156, 171, 0.57);
     font-size: 34px;
     border-top-right-radius: 9px;
     font-weight: bold;
@@ -86,7 +86,7 @@ p {
     background-size: 100%;
     position: absolute;
     left: 210px;
-    top: 43px;
+    top: 45px;
     color: rgba(136, 131, 146, 0.82);
     font-size: 12px;
     font-family: "Helvetica Neue", "Arial", sans-serif;
