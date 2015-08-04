@@ -1,14 +1,37 @@
 #client_area{
    padding: 10px;
+   padding-left: 25px;
    width: 100%;
    height: 100%;
 }
 
 .work_divs{
-    width: 40%;
-    height: 20%;
+    text-align: left;
+    width: 45%;
+    height: 25%;
     background-color: RGB(240, 240, 240);
     border-radius: 9px;
-    border-top: 3px solid lightskyblue;
-    border-bottom: 3px solid lightskyblue;
+    border-top: 3px solid #c9a7b7;
+    border-bottom: 3px solid #c9a7b7;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+}
+
+#work_images_on_board{
+    top: 5%;
+    position: relative;
+    #padding: 20px;
+    left: 8%;
+    width: 350px;
+    height: 220px;
+    background: url("on-board.jpg") no-repeat;
+    background-size: 350px 220px;
+    background-color: blue;
+}
+
+.work_title{
+    font-size: 16;
 }
