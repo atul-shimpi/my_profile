@@ -34,14 +34,15 @@ p {
 }
 
 #profile_photo{
-    width: 260px;
+    width: 280px;
     height: 260px;
     border-radius: 6px;
     background-image: url("on-chair.jpg");
-    background-size: 100%;
+    background-size: 180%;
     background-repeat: no-repeat;
     position: absolute;
-    left: 70px;
+    background-position: -100px -0px;
+    left: 50px;
     top: 80px;
     border-left: 9px solid #f5f5f5;
     border-top: 9px solid #f5f5f5;
@@ -55,12 +56,12 @@ a:link, a:visited {
 }
 
 #contact_details{
-    width: 255px;
+    width: 275px;
     height: 80px;
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
-    left: 70px;
+    left: 50px;
     top: 350px;
     border-left: 9px solid #f5f5f5;
     border-bottom: 9px solid #f5f5f5;
@@ -139,6 +140,7 @@ a:link, a:visited {
     top: 80px;
     font-family: "Source Code Pro", Monaco, monospace;
     padding-left: 10px;
+    text-align: justify;
 }
 
 b {
@@ -153,6 +155,7 @@ b {
     top: 445px;
     font-family: verdana, arial, helvetica, sans-serif;
     padding-left: 10px;
+    text-align: justify;
 }
 
 #question{
