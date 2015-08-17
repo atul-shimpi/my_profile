@@ -66,7 +66,7 @@ a:link, a:visited {
     border-left: 9px solid #f5f5f5;
     border-bottom: 9px solid #f5f5f5;
     #background-color: rgb(140, 207, 217);
-    background-color: rgb(244, 203, 225);
+    background-color: rgb(121, 208, 185);
     padding-left: 5px;
     padding-top: 3px;
     border-bottom-left-radius: 6px;
@@ -183,7 +183,7 @@ b {
 
 #ui_title{
     color: lightslategray;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: bold;
     width: 95%;
     border-bottom: 1px  solid;

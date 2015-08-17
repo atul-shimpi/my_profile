@@ -8,11 +8,13 @@
 </head>
 <body>
 
-<div id="app_window">
+<% if controller_name.eql?('home') %> <div id="app_window" > <% end %>
+<% if controller_name.eql?('works') %> <div  id="app_window" style="height: 2700px" > <% end %>
   <%= yield %>
 </div>
 <br>
 </body>
+
 <div id="copyright">
   <p>&copy; 2015 Atul Shimpi</p>
 </div>
