@@ -9,7 +9,7 @@
 .work_divs{
     text-align: left;
     width: 900px;
-    height: 600px;
+    height: 620px;
     background-color: RGB(220, 220, 220);
     border-top: 8px solid #c9a7b7;
     border-radius: 8px;
@@ -17,31 +17,38 @@
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
-
-    #position: absolute;
 }
 
-#work_images_on_board{
+.my_app_ui{
     top: 10px;
     position: relative;
-    #padding: 20px;
     left: 0;
     width: 900px;
     height: 500px;
-    background: url("on-board/Login.png") no-repeat;
     background-size: 100% 100%;
-    background-color: #e6c2d3;
     border: solid 1px #a98b98;
 }
 
-
-.work_title{
+.work_domain{
     font-size: 18px;
     font-weight: bold;
     color: #9c7f8b;
 }
 
+.work_description{
+    font-size: 12px;
+}
+
 .work_technologies{
     font-size: 12px;
     border-bottom: 1px solid #c9a7b7;
+}
+
+.work_ui_links{
+    top: 10px;
+    position: relative;
+    left: 0;
+    width: 900px;
+    height: 30px;
+
 }
