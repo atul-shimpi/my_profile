@@ -13,16 +13,22 @@
         <div class="work_ui_links">
           <% my_app.my_app_uis.each_with_index do |ui, index| %>
             <% first_image_path ||= ui.image_path %>
-              <%= if index == 0; link_to ui.name; end %>
               <% image = asset_path ui.image_path %>
+              <%= if index == 0; link_to ui.name, '#', :remote => true, :onclick => "document.getElementById(#{my_app.id}).style.backgroundImage = 'url(#{image})';"; end %>
+
               <% if index > 0 %> | <%= link_to ui.name,
                                                '#',
                                                :remote => true,
-                                               :onclick => "document.getElementById(1).style.backgroundImage = 'url(#{image})';" %>
+                                               :onclick => "document.getElementById(#{my_app.id}).style.backgroundImage = 'url(#{image})';" %>
               <% end %>
           <% end %>
 
-          <div id=<%= my_app.id %> class="my_app_ui" style="background-image: url(<%= asset_path  first_image_path %>);"></div>
+          <% if first_image_path.blank? %>
+              <div  class="my_app_ui" >Preview unavailable</div>
+          <% else %>
+            <div id=<%= my_app.id %> class="my_app_ui" style="background-image: url(<%= asset_path  first_image_path %>);"></div>
+          <% end %>
+
 
         </div>
       </div>

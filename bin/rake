@@ -6,3 +6,7 @@ end
 require_relative '../config/boot'
 require 'rake'
 Rake.application.run
+
+task :reset_db do
+  puts "Hello"
+end

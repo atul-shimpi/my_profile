@@ -6,41 +6,35 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-# MyApps
-MyApp.create(domain: 'Human Resource',
-             description: 'Recruitment Application',
-             technologies: 'Ruby on Rails, MySql'
-)
-MyApp.create(domain: 'Cloud',
-             description: 'Cloud Resources Management, Monitoring and Provisioning Application',
-             technologies: 'Ruby on Rails, MySql, Amazon Web Services'
-)
-MyApp.create(domain: 'Library',
-             description: 'Library Application',
-             technologies: 'Ruby on Rails, MySql'
-)
-MyApp.create(domain: 'On-Line Profile',
-             description: 'On-Line Profile',
-             technologies: 'Ruby on Rails, MySql'
-)
+# ----------------------------------------------------------------------------------------------------------------
+# On-board
+MyApp.create(domain: 'Human Resource', description: 'Recruitment Application', technologies: 'Ruby on Rails, MySql')
+MyAppUi.create(my_app_id: 1, name: 'Login', image_path: 'on-board/login.png')
+MyAppUi.create(my_app_id: 1, name: 'Dashboard', image_path: 'on-board/dashboard.png')
+MyAppUi.create(my_app_id: 1, name: 'Address',image_path: 'on-board/address.png')
+MyAppUi.create(my_app_id: 1, name: 'Create Candidate', image_path: 'on-board/candidate_info.png')
+MyAppUi.create(my_app_id: 1, name: 'Settings', image_path: 'on-board/app_settings.png')
+MyAppUi.create(my_app_id: 1, name: 'Forms',image_path: 'on-board/forms.png')
+MyAppUi.create(my_app_id: 1, name: 'Employment Form',image_path: 'on-board/emp_app_form.png')
+MyAppUi.create(my_app_id: 1, name: 'Create User', image_path: 'on-board/create_user.png')
 
-# MyApps Uis
-MyAppUi.create(my_app_id: 1,
-               name: 'Login',
-               image_path: 'on-board/login.png'
-)
+# ----------------------------------------------------------------------------------------------------------------
+# Library
+MyApp.create(domain: 'Library', description: 'Library Application',  technologies: 'Ruby on Rails, MySql')
+MyAppUi.create(my_app_id: 2, name: 'Login', image_path: 'library/login.png')
 
-MyAppUi.create(my_app_id: 1,
-               name: 'Dashboard',
-               image_path: 'on-board/dashboard.png'
-)
+# ----------------------------------------------------------------------------------------------------------------
+# On-line profile
+MyApp.create(domain: 'On-Line Profile', description: 'On-Line Profile', technologies: 'Ruby on Rails, MySql')
+MyAppUi.create(my_app_id: 3, name: 'Home', image_path: 'my_profile/home.png')
+MyAppUi.create(my_app_id: 3, name: 'My Apps', image_path: 'my_profile/work.png')
 
-MyAppUi.create(my_app_id: 1,
-               name: 'address',
-               image_path: 'on-board/address.png'
-)
+# ----------------------------------------------------------------------------------------------------------------
+# Cloud
+MyApp.create(domain: 'Cloud', description: 'Cloud Resources Management, Monitoring and Provisioning Application',
+             technologies: 'Ruby on Rails, MySql, Amazon Web Services')
 
-MyAppUi.create(my_app_id: 1,
-               name: 'Candidate',
-               image_path: 'on-board/emp-profile.emp'
-)
+
+
+
+
