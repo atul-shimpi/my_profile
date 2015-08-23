@@ -1,7 +1,7 @@
 body{
     background-color: #ffffff;
     margin: 0;
-    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-family: "Arial", sans-serif;
     line-height: 1.6;
     font-size: 12px;
     color: #515151;
@@ -65,8 +65,8 @@ a:link, a:visited {
     top: 350px;
     border-left: 9px solid #f5f5f5;
     border-bottom: 9px solid #f5f5f5;
-    #background-color: rgb(230, 194, 211);
-    background-color: rgb(111, 194, 171);
+    background-color: rgb(230, 194, 211);
+    #background-color: rgb(170, 195, 173);
     padding-left: 5px;
     padding-top: 3px;
     border-bottom-left-radius: 6px;
@@ -86,7 +86,6 @@ a:link, a:visited {
     font-size: 34px;
     border-top-right-radius: 9px;
     font-weight: bold;
-    font-family: "Helvetica Neue", "Arial", sans-serif;
     padding-left: 10px;
     padding-right: 15px;
 }
@@ -103,7 +102,7 @@ a:link, a:visited {
     font-size: 34px;
     border-top-right-radius: 9px;
     font-weight: bold;
-    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-family: "Arial", sans-serif;
     padding-left: 5px;
     padding-right: 10px;
 }
@@ -115,7 +114,6 @@ a:link, a:visited {
     top: 45px;
     color: rgba(136, 131, 146, 0.82);
     font-size: 12px;
-    font-family: "Helvetica Neue", "Arial", sans-serif;
 }
 
 #welcome_hr{
@@ -128,7 +126,6 @@ a:link, a:visited {
     color: rgba(186, 186, 186, 0.82);
     font-size: 12px;
     font-weight: bold;
-    font-family: "Helvetica Neue", "Arial", sans-serif;
     border-top: 1px dashed;
 }
 
@@ -138,7 +135,6 @@ a:link, a:visited {
     position: absolute;
     left: 340px;
     top: 80px;
-    font-family: "Source Code Pro", Monaco, monospace;
     padding-left: 10px;
     text-align: justify;
 }
@@ -153,7 +149,6 @@ b {
     position: absolute;
     left: 200px;
     top: 445px;
-    font-family: verdana, arial, helvetica, sans-serif;
     padding-left: 10px;
     text-align: justify;
 }
@@ -163,20 +158,17 @@ b {
     color: #549389;
     font-size: 13px;
     font-weight: bold;
-    font-family: verdana, arial, helvetica, sans-serif;
 }
 
 #answer{
     color: #515151;
     font-size: 13px;
-    font-family: verdana, arial, helvetica, sans-serif;
 }
 
 #copyright{
     width: 100%;
     height: 100%;
     color: #515151;
-    font-family: helvetica, verdana, arial, sans-serif;
     font-size: 12px;
     text-align: center;
 }

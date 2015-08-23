@@ -27,7 +27,6 @@ MyAppUi.create(my_app_id: 2, name: 'Login', image_path: 'library/login.png')
 # On-line profile
 MyApp.create(domain: 'On-Line Profile', description: 'On-Line Profile', technologies: 'Ruby on Rails, MySql')
 MyAppUi.create(my_app_id: 3, name: 'Home', image_path: 'my_profile/home.png')
-MyAppUi.create(my_app_id: 3, name: 'My Apps', image_path: 'my_profile/work.png')
 
 # ----------------------------------------------------------------------------------------------------------------
 # Cloud
