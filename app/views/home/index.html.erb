@@ -15,68 +15,19 @@
 </div>
 
 
-<div id="faqs_upper">
-  <p id="question">Who are you ? </p>
-  <p id="answer">Hello, myself Atul Shimpi from Pune, India. </p>
-  <br>
-
-  <p id="question">What do you do ?  </p>
-  <p id="answer"> I do software freelancing.
-    I design and develop Web-based and Cloud-Based software applications for start-up and medium size companies. <br>
-  <br>
-
-  <p id="question">Why do you freelancing ?  </p>
-  <p id="answer">To fulfil my dreams. I want to travel all around world and enjoy the nature, experience different
-    cultures, meet people and make friends and most importantly learn something from them.<br>
-    <br>
-
-  <p id="question">What is your expertise ?  </p>
-  <p id="answer"> I love <b>"Ruby on Rails"</b> and <b>"Amazon Web Services".</b>
-    I like to create re-usable and tested software components and code through <b>"Object Oriented Programming".</b>
-    I also follow the best practise of writing the unit test cases first the then actual code by following
-    <b>"Test Driven Development".</b>
-    I follow <b>"Usability"</b> techniques for creating effective user interfaces.
-    This web-site is result of my expertise.
+<div id="introduction_upper">
+  <% each_introduction do |question_no, question, answer| %>
+      <p id="question"><%= question %> </p>
+      <p id="answer"><%= answer.html_safe %></p><br>
+      <% break if question_no == 4 %>
+  <% end %>
 </div>
 
-<div id="faqs_lower">
-
-  <p id="question">For how many years are you doing this ?  </p>
-  <p id="answer"> My total software experience is 9 years.
-    On "Ruby on Rails" its 3 years and on "Amazon Web Services" its 2 years<br><br>
-
-  <p id="question">Are you the best of all over there ?</p>
-  <p id="answer">I will make efforts to be best for you.</p>
-  <p id="answer">Early this year (2015), I <b>achieved 4 out of 5 rating from a US client for my work </b>.
-  But I think I am still and would remain a student forever and keep the learning process going on.</p>
-  <br>
-
-  <p id="question">Are my applications world class ? </p>
-  <p id="answer"> No, they are end user class. </p>
-  <br>
-
-  <p id="question">Do I provide world class architecture ? </p>
-  <p id="answer"> No, i provide right architecture. </p>
-  <br>
-
-  <p id="question">How do i provide right architecture ? </p>
-  <p id="answer"> By following best practises.
-    They say, “Technology is temporary and best practises are permanent”.
-    Got golden opportunities to work with products of some of the Fortune 100 companies.
-    Interacting with <b>"Rails Community"</b> world wide helps me to know it better.
-    Contributing to <b>"Rails Open Source Project"</b> allows me to apply my knowledge.
-    See <%= link_to('My Github Profile', 'https://github.com/atul-shimpi',  target: '_blank')%><br>
-  </p>
-  <br>
-
-  <p id="question">Work location ? </p>
-  <p id="answer"> Only remote work. But can visit your location for few days if required. </p>
-  <br>
-
-  <p id="question">Want more information </p>
-  <p id="answer"> View my “CV”. </p>
-  <br>
-
-  <p id="question">Any References ?</p>
-  <p id="answer"> Yes, on email. </p>
+<div id="introduction_lower">
+  <% each_introduction do |question_no, question, answer| %>
+      <% if question_no > 4 %>
+        <p id="question"><%= question %> </p>
+        <p id="answer"><%= answer.html_safe %></p><br>
+      <% end %>
+  <% end %>
 </div>
