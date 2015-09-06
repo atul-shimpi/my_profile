@@ -47,3 +47,4 @@ group :development, :test do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
+gem 'rails_12factor'
