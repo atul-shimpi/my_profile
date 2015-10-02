@@ -28,4 +28,3 @@
           Got golden opportunities to work with products of some of the Fortune 100 companies.
           Interacting with <b>"Rails Community"</b> world wide helps me to know it better.
           Contributing to <b>"Rails Open Source Project"</b> allows me to apply my knowledge.
-          See <%= link_to('My Github Profile', 'https://github.com/atul-shimpi',  "target:" '_blank')%>
