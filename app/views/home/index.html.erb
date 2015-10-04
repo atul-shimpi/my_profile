@@ -24,8 +24,9 @@
       <% break if question_no == 4 %>
   <% end %>
 </div>
-
+<br>
 <div id="introduction_lower">
+  <br>
   <% each_introduction do |question_no, question, answer| %>
       <% if question_no > 4 %>
         <p id="question"><%= question %> </p>
