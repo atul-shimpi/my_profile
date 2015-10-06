@@ -9,7 +9,7 @@
 - question: What is your expertise ?
   answer: I love <b>Ruby</b>, <b>"Ruby on Rails"</b> and <b>"Amazon Web Services"</b>.
           I like to create re-usable and tested software components and code through <b>"Object Oriented Programming"</b>.
-          I also follow the best practise of writing the unit test cases first and then the actual code by following
+          I also follow the best practise of writing the test cases first and then the actual code by following
           <b>"Test Driven Development (TDD) and Behaviour Driven Development (BDD)"</b> process. I use <b>"Test Units"
           ,"RSpec" and "Factory Girl"</b> for writing test cases. I follow <b>"Usability"</b> techniques for creating effective user
           interfaces.
