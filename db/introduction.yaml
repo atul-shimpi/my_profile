@@ -1,37 +1,39 @@
-- question: Who are  you ?
+- question: Who am I ?
   answer: Hello, myself Atul Shimpi from Pune, India.
-- question: What do you do ?
-  answer: I do software freelancing.
+- question: What do I do ?
+  answer: I do software consultancy.
             I design and develop Web-based and Cloud-Based software applications for start-up and medium size companies.
-- question: Why do you do this ?
+- question: Why do I do this ?
   answer: Work satisfaction and dreams. To fulfil my dreams. I want to travel all around world and enjoy the nature,
            experience different cultures, meet people and make friends and most importantly learn something from them
-- question: What is your expertise ?
+- question: What is my expertise ?
   answer: I love <b>Ruby</b>, <b>"Ruby on Rails"</b> and <b>"Amazon Web Services"</b>.
-          I like to create re-usable and tested software components and code through <b>"Object Oriented Programming"</b>.
+          I like to create re-usable and tested software components and code through <b>"Object Oriented Programming"
+          </b>.
           I also follow the best practise of writing the test cases first and then the actual code by following
           <b>"Test Driven Development (TDD) and Behaviour Driven Development (BDD)"</b> process. I use <b>"Test Units"
-          ,"RSpec" and "Factory Girl"</b> for writing test cases. I follow <b>"Usability"</b> techniques for creating effective user
-          interfaces.
-- question: For how many years are you doing this ?
+          ,"RSpec" and "Factory Girl"</b> for writing test cases. I follow <b>"Usability"</b> techniques for creating
+          effective user interfaces.
+- question: For how many years am I doing this ?
   answer: My total software experience is 9 years.
           On "Ruby on Rails" its 3 years and on "Amazon Web Services" its 2 years.
-- question: Are you the best of all over there ?
+- question: Am I the best of all over there ?
   answer: I will make efforts to be best for you.</p>
           <p id="answer">Early this year (2015), I <b>achieved 4 out of 5 rating from a US client for my work </b>.
           But I think I am still and would remain a student forever and keep the learning process going on.
 - question: Are my applications world class ?
   answer: No, they are end user class.
 - question: Do I provide world class architecture ?
-  answer: No, i provide right architecture.
-- question: How do i provide right architecture ?
-  answer: By following best practises.
-          They say, “Technology is temporary and best practises are permanent”.
+  answer: No, I provide right architecture.
+- question: How do I provide right architecture ?
+  answer: By following best practises and keeping myself updated. They say, “Technology is temporary and class is
+          permanent”. Since our work is knowledge driven, every day I read something new or sometimes also something
+          which I already know to understand it deeply. You never know which knowledge will help you where.
           Got golden opportunities to work with products of some of the Fortune 100 companies.
           Interacting with <b>"Rails Community"</b> world wide helps me to know it better.
           Contributing to <b>"Rails Open Source Project"</b> allows me to apply my knowledge.
           See <a href="https://github.com/atul-shimpi" target="_blank">My GitHub Profile</a>
-- question: Do you have experience working remotely ?
+- question: Do I have experience of working remotely ?
   answer: Yes. Completed a 6 months assignment on <a href=" https://www.upwork.com" target="_blank">
           Upwork</a> - remote job provider company. I also have the infrastructure
           needed for working and collaborating with remote teams.
