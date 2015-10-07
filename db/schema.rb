@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 20150818164057) do
 
   create_table "my_apps", force: :cascade do |t|
     t.string "domain",       limit: 255
-    t.string "description",  limit: 255
+    t.string "description",  limit: 1024
     t.string "technologies", limit: 255
   end
 

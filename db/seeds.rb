@@ -30,8 +30,20 @@ MyAppUi.create(my_app_id: 3, name: 'Home', image_path: 'my_profile/home.png')
 
 # ----------------------------------------------------------------------------------------------------------------
 # Cloud
-MyApp.create(domain: 'Cloud', description: 'Cloud Resources Management, Monitoring and Provisioning Application',
-             technologies: 'Ruby on Rails, MySql, Amazon Web Services')
+
+description = 'Used by 500 users daily, this application enable developers of upwork (formerly oDesk) to launch and
+manage their development and production VMs (virtual machines). Users need not go to AWS console to do these things.
+As an admin you could control the type of instances users can launch and the duration for which they can use it.
+As a company, this allowed easy management, monitoring and control of your virtual infrastructure usage and thereby
+also expenses.'
+
+technologies = 'Ruby on Rails, MySql, Amazon Web Services - EC2, VPC (Public/Private/VPN), RDS, DevOPS, AutoScaling,
+ELB, CloudWatch, CloudFormation'
+
+MyApp.create(domain: 'Cloud',
+             description: description,
+             technologies: technologies
+)
 
 
 
