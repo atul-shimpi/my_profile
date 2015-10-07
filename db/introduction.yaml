@@ -16,11 +16,14 @@
           effective user interfaces.
 - question:
   answer : I have worked on <b>"MySql", "PostgrSql" and "mongodb"</b>.<p>
-           Basically everything between front-end and back-end.
-           However, beyond front-ends and back-ends, applications should also be highly-available, falut tolerant and
-           scalable to keep the end users happy. They should also be easily deployed.
-           I can design your applications deployment for these things, on your own premise or on cloud - <b>"AWS", "Heroku"
-           and "Azure"</b>. See <a href="https://desolate-beyond-6545.herokuapp.com/work" target="_blank">My Work</a>
+           I can create rich UI's in HTML and dynamic UI's using javascript. <p>
+           Basically everything between front-end and back-end.<p>
+           However, beyond front-ends and back-ends there is more to software applications. Applications should also be
+           highly-available, fault tolerant and scalable to keep our beloved users happy and increasing. Applications
+           deployment should be automated, smooth and without human interferance.
+           I can automate your applications deployment using Chef,Puppet either on your own premise or on cloud -
+           <b>"AWS", "Heroku" and "Azure"</b>. See <a href="https://desolate-beyond-6545.herokuapp.com/work"
+           target="_blank">My Work</a>
 - question: For how many years am I doing this ?
   answer: My total software experience is 9 years.
           On "Ruby on Rails" its 3 years and on "Amazon Web Services" its 2 years.
