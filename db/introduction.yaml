@@ -14,6 +14,13 @@
           <b>"Test Driven Development (TDD) and Behaviour Driven Development (BDD)"</b> process. I use <b>"Test Units"
           ,"RSpec" and "Factory Girl"</b> for writing test cases. I follow <b>"Usability"</b> techniques for creating
           effective user interfaces.
+- question:
+  answer : I have worked on <b>"MySql", "PostgrSql" and "mongodb"</b>.<p>
+           Basically everything between front-end and back-end.
+           However, beyond front-ends and back-ends, applications should also be highly-available, falut tolerant and
+           scalable to keep the end users happy. They should also be easily deployed.
+           I can design your applications deployment for these things, on your own premise or on cloud - <b>"AWS", "Heroku"
+           and "Azure"</b>.
 - question: For how many years am I doing this ?
   answer: My total software experience is 9 years.
           On "Ruby on Rails" its 3 years and on "Amazon Web Services" its 2 years.
