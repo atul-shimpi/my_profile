@@ -15,12 +15,12 @@ test:
   database: appname_test
 
 production:
-  #<<: *default
-  #database: my_profile
+  <<: *default
   database: my_profile
-  username: root
-  password: root
-  adapter: postgresql
-  encoding: unicode
-  pool: 5
+  #database: my_profile
+  #username: root
+  #password: root
+  #adapter: postgresql
+  #encoding: unicode
+  #pool: 5
 
