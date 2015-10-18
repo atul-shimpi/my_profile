@@ -1,0 +1,17 @@
+<h2>Visitors</h2>
+<table>
+	<th>
+		<td>Date</td>
+		<td>IP Address</td>
+		<td>Host Name</td>
+		<td>Server Name</td>
+	</th>
+	<% @request_headers.each do |request_header| %>
+		<tr>
+			<td><%= request_header.created_at %></td>
+			<td><%= request_header.remote_ip %></td>
+			<td><%= request_header.remote_host %></td>
+			<td><%= request_header.server_name %></td>
+		<tr>
+	<% end %>
+</table>
