@@ -5,11 +5,11 @@
 		<td>IP Address</td>
 		<td>Host Name</td>
 	</th>
-	<% @request_headers.each do |request_header| %>
+	<% @visitors.each do |visitor| %>
 		<tr>
-			<td><%= request_header.created_at.to_formatted_s(:long) %></td>
-			<td><%= request_header.remote_ip %></td>
-			<td><%= request_header.remote_host %></td>
+			<td><%= visitor.created_at.to_formatted_s(:long) %></td>
+			<td><%= visitor.remote_ip %></td>
+			<td><%= visitor.remote_host %></td>
 		<tr>
 	<% end %>
 </table>

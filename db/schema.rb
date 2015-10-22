@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151018102141) do
+ActiveRecord::Schema.define(version: 20151021214753) do
 
   create_table "my_app_uis", force: :cascade do |t|
     t.integer "my_app_id",  limit: 4
@@ -27,20 +27,20 @@ ActiveRecord::Schema.define(version: 20151018102141) do
     t.string "technologies", limit: 255
   end
 
-  create_table "request_headers", force: :cascade do |t|
-    t.string   "remote_ip",   limit: 255
-    t.string   "remote_host", limit: 255
-    t.string   "server_name", limit: 255
-    t.datetime "created_at",              null: false
-    t.datetime "updated_at",              null: false
-  end
-
   create_table "users", force: :cascade do |t|
     t.string   "first_name", limit: 255
     t.string   "last_name",  limit: 255
     t.string   "email",      limit: 255
     t.datetime "created_at",             null: false
     t.datetime "updated_at",             null: false
+  end
+
+  create_table "visitors", force: :cascade do |t|
+    t.string   "remote_ip",   limit: 255
+    t.string   "remote_host", limit: 255
+    t.string   "server_name", limit: 255
+    t.datetime "created_at",              null: false
+    t.datetime "updated_at",              null: false
   end
 
 end

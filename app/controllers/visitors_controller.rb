@@ -1,5 +1,5 @@
 class VisitorsController < ApplicationController
 	def index
-		@request_headers = RequestHeader.all.reverse_order!
+		@visitors = Visitor.all_important.reverse_order!
 	end
 end

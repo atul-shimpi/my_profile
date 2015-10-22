@@ -9,6 +9,7 @@
     <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
     <envs>
       <env name="SECRET_KEY_BASE" value="02OCT20152037" />
+      <env name="NOT_IMPORTANT_VISITORS_IPXX" value="188.34.5.3 106.34.5.3 127.0.0.18" />
     </envs>
     <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
     <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
