@@ -7,11 +7,15 @@ class HomeController < ApplicationController
                       request.headers[:HTTP_X_FORWARDED_FOR] :
                       request.headers[:REMOTE_HOST]
 
-    # !ENV['NOT_IMPORTANT_VISITORS_IPs'].split.include?(visitor_host_ip)
+
+    puts 'Unimportant Visitor IP'
+    puts '=================================================='
+    ENV['NOT_IMPORTANT_VISITORS_IPs'].split.each{|ip| puts ip}
+
     Visitor.create(remote_ip: visitor_host_ip,
                    remote_host: request.headers[:REMOTE_IP].nil? ? 'NA': request.headers[:REMOTE_IP],
                    server_name: request.headers[:SERVER_NAME],
                    is_important: !ENV['NOT_IMPORTANT_VISITORS_IPs'].split.include?(visitor_host_ip)
-    )
+            )
   end
 end
