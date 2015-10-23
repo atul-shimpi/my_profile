@@ -6,7 +6,7 @@ Technologies used
 -Hosted on Heroku (Free and high quality Cloud Service Provider)
 
 Features
--Shows My Expertiese
+-Shows My Expertise
 -Shows my past projects
 -Shows visitors information like IP Address and Country,City of the person visting my site.
 
