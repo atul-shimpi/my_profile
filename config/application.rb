@@ -27,3 +27,5 @@ module MyProfile
     config.time_zone = 'Mumbai'
   end
 end
+
+ENV['NOT_IMPORTANT_VISITORS_IPs'] = ''

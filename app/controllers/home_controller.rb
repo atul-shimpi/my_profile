@@ -6,11 +6,7 @@ class HomeController < ApplicationController
     visitor_host_ip = request.headers.include?(:HTTP_X_FORWARDED_FOR) ?
                       request.headers[:HTTP_X_FORWARDED_FOR] :
                       request.headers[:REMOTE_HOST]
-
-
-    puts 'Unimportant Visitor IP'
-    puts '=================================================='
-    ENV['NOT_IMPORTANT_VISITORS_IPs'].split.each{|ip| puts ip}
+    
 
     Visitor.create(remote_ip: visitor_host_ip,
                    remote_host: request.headers[:REMOTE_IP].nil? ? 'NA': request.headers[:REMOTE_IP],

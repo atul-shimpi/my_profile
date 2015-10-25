@@ -1,0 +1,21 @@
+<h3><%= title %></h3>
+<!--<table class='table table-condensed'>-->
+<table>
+  <thead>
+  <tr>
+    <% column_titles.each do |column_title| %>
+      <th><%= column_title %></th>
+    <% end %>
+  </tr>
+  </thead>
+
+  <% models.each do |model| %>
+    <tr>
+      <td><%= model.send('created_at').to_formatted_s(:short) %></td>
+      <% attributes.each do |attribute| %>
+        <td><%= model.send(attribute) %></td>
+      <% end %>
+    </tr>
+  <% end %>
+
+</table>

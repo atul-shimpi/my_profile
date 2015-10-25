@@ -1,15 +1,7 @@
-<h2>Visitors</h2>
-<table>
-	<th>
-		<td>Date</td>
-		<td>IP Address</td>
-		<td>Host Name</td>
-	</th>
-	<% @visitors.each do |visitor| %>
-		<tr>
-			<td><%= visitor.created_at.to_formatted_s(:long) %></td>
-			<td><%= visitor.remote_ip %></td>
-			<td><%= visitor.remote_host %></td>
-		<tr>
-	<% end %>
-</table>
+<%= render(  '/view_all',
+             title: 'Visitors',
+             column_titles: ['Date', 'IP Address'],
+             models: @visitors,
+             attributes: ['remote_ip']
+           )
+%>

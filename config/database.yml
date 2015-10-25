@@ -8,7 +8,7 @@ default: &default
 
 development:
   <<: *default
-  database: my_profile
+  database: my_profile_dev
 
 test:
   <<: *default

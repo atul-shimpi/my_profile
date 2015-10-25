@@ -14,8 +14,8 @@
 - question:
   answer: (BDD)"</b> process. I use <b>"Test Units" ,"RSpec" and "Factory Girl"</b> for writing test cases.
            I follow <b>"Usability"</b> techniques for creating effective user interfaces.
-           I have worked on <b>"MySql", "PostgrSql" and "mongodb"</b>.<p>
-           I can create rich UI's in HTML and dynamic UI's using javascript. <p>
+           I have worked on <b>"MySql", "PostgrSql" and "mongodb"</b>. I can create rich UI's in HTML and dynamic UI's
+           using javascript. <p>
            Basically everything between front-end and back-end.<p>
            However, beyond front-ends and back-ends there is more to software applications. Applications should also be
            highly-available, fault tolerant and scalable to keep our beloved users happy and ever increasing.
