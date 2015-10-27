@@ -4,20 +4,22 @@
   answer: I do software consultancy.
             I design and develop Web-based and Cloud-Based software applications for start-up and medium size companies.
 - question: Why do I do this ?
-  answer: Work satisfaction and dreams. To fulfil my dreams. I want to travel all around world and enjoy the nature,
+  answer: Work satisfaction and dreams. To fulfil my dreams.
+          <br>It gives me immense pleasure in 'Being My Own Boss' by working in this way.
+           <br>I want to travel all around world and enjoy the nature,
            experience different cultures, meet people and make friends and most importantly learn something from them.
 - question: What is my expertise ?
   answer: I love <b>Ruby</b>, <b>"Ruby on Rails"</b> and <b>"Amazon Web Services"</b>.
           I like to create re-usable and tested software components and code through <b>"Object Oriented Programming"
           </b>.I also follow the best practise of writing the test cases first and then the actual code by following
-          <b>"Test Driven Development (TDD) and Behaviour Driven Development
+          <b>"Test Driven Development (TDD) and Behaviour Driven Development (BDD)"</b> process. I use <b>"Test Units"
+          ,"RSpec" and "Factory Girl"</b> for writing test cases.
 - question:
-  answer: (BDD)"</b> process. I use <b>"Test Units" ,"RSpec" and "Factory Girl"</b> for writing test cases.
-           I follow <b>"Usability"</b> techniques for creating effective user interfaces.
-           I have worked on <b>"MySql", "PostgrSql" and "mongodb"</b>. I can create rich UI's in HTML and dynamic UI's
-           using javascript. <p>
-           Basically everything between front-end and back-end.<p>
-           However, beyond front-ends and back-ends there is more to software applications. Applications should also be
+  answer:  I follow <b>"Usability"</b> techniques for creating effective user interfaces. I have worked on <b>"MySql", "PostgrSql" and "mongodb"</b>.
+          I can create rich UI's in HTML and dynamic UI's using javascript.
+          <p>Basically everything between the front-end and back-end.
+           <p>The site you are currently visiting is the result of all these technologies.
+           <p>However, beyond front-ends and back-ends there is more to software applications. Applications should also be
            highly-available, fault tolerant and scalable to keep our beloved users happy and ever increasing.
            Applications deployment should be automated, smooth and without human interferance.
            I can automate your applications deployment using Chef,Puppet either on your own premise or on cloud -

@@ -1,20 +1,27 @@
+* {
+  font-size: 12px;
+}
+
+
+
 body{
     background-color: #ffffff;
     margin: 0;
     font-family: "Arial", sans-serif;
     line-height: 1.6;
-    font-size: 12px;
+    font-size: 10px;
     color: #515151;
 }
 
 p {
-    margin-top: 0em;
+    margin: 0;
     margin-bottom: 0.1em;
+    font-size: 12px;
 }
 
 #app_window{
     width: 80%;
-    height: 1200px;
+    height: 1300px;
    background-color: #f6f6f6;
     margin: auto;
     top: 10px;
@@ -63,13 +70,13 @@ a:link, a:visited {
 }
 
 #contact_details{
-    width: 375px;
+    width: 380px;
     height: 80px;
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
     left: 50px;
-    top: 390px;
+    top: 372px;
     border-left: 9px solid #f5f5f5;
     border-bottom: 9px solid #f5f5f5;
     background-color: rgb(208, 175, 189);
@@ -86,8 +93,8 @@ a:link, a:visited {
     height: 240px;
     background-size: 100%;
     position: absolute;
-    left: 75px;
-    top: 0;
+    left: 100px;
+    top: 0px;
     color: rgba(25, 144, 160, 0.98);
     font-size: 34px;
     border-top-right-radius: 9px;
@@ -159,15 +166,15 @@ b {
 }
 
 #question{
-    #color: #a38793;
     color: #8a6271;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bold;
+    margin: 0;
 }
 
 #answer{
     color: #515151;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 #copyright{
@@ -180,7 +187,7 @@ b {
 
 #ui_title{
     color: lightslategray;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: bold;
     width: 95%;
     border-bottom: 1px  solid;

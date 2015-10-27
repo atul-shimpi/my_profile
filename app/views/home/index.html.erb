@@ -11,6 +11,8 @@
   <%= link_to('Github Profile', 'https://github.com/atul-shimpi',
               target: '_blank')%> |
   <%= link_to('Blogs', 'https://atulshimpi.wordpress.com/2015/08/16/installing-ruby-on-rails-on-windows/',
+              target: '_blank')%> |
+  <%= link_to('Visitors', visitors_path,
               target: '_blank')%>
   <br>
   Cell : +91-9890979429<br>
@@ -19,17 +21,17 @@
 </div>
 
 <div id="introduction_upper">
-  <p></p>Hello,</p>
-  <p>Welcome to my site. Let me introduce myself..</p><br>
+  <p><br>Hello,
+  <br>Welcome to my site. Let me introduce myself..</p>
   <% each_introduction do |question_no, question, answer| %>
-      <p id="question"><%= question %> </p>
-      <p id="answer"><%= answer.html_safe %></p><br>
+      <p id="question"><%= question %>
+      <p id="answer"><%= answer.html_safe %></p>
       <% break if question_no == 4 %>
   <% end %>
 </div>
 <br>
 <div id="introduction_lower">
-  <br><br>
+  <br>
   <% each_introduction do |question_no, question, answer| %>
       <% if question_no > 4 %>
         <p id="question"><%= question %> </p>
