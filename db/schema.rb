@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151024111730) do
+ActiveRecord::Schema.define(version: 20151103000402) do
 
   create_table "my_app_uis", force: :cascade do |t|
     t.integer "my_app_id",  limit: 4
@@ -25,6 +25,26 @@ ActiveRecord::Schema.define(version: 20151024111730) do
     t.string "domain",       limit: 255
     t.string "description",  limit: 1024
     t.string "technologies", limit: 255
+  end
+
+  create_table "visitor_locations", force: :cascade do |t|
+    t.integer "visitor_id",     limit: 4
+    t.string  "dma_code",       limit: 5
+    t.string  "asn",            limit: 10
+    t.string  "city",           limit: 30,    null: false
+    t.text    "latitude",       limit: 65535, null: false
+    t.text    "longitude",      limit: 65535, null: false
+    t.string  "country_code",   limit: 5,     null: false
+    t.integer "offset",         limit: 4
+    t.string  "country",        limit: 25,    null: false
+    t.string  "region_code",    limit: 5
+    t.string  "isp",            limit: 50,    null: false
+    t.string  "area_code",      limit: 5
+    t.string  "continent_code", limit: 5,     null: false
+    t.string  "region",         limit: 25
+    t.string  "postal_code",    limit: 25
+    t.string  "country_code3",  limit: 5
+    t.string  "timezone",       limit: 30,    null: false
   end
 
   create_table "visitors", force: :cascade do |t|

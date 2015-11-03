@@ -10,7 +10,7 @@
 
   <% models.each do |model| %>
     <tr>
-      <td><%= model.send('created_at').to_formatted_s(:short) %></td>
+      <td><%= model.send('created_at').to_formatted_s(:long) %></td>
       <% attributes.each do |attribute| %>
         <td><%= model.send(attribute) %></td>
       <% end %>
