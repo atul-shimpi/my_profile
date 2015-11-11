@@ -25,12 +25,10 @@
            I can automate your applications deployment using Chef,Puppet either on your own premise or on cloud -
            <b>"AWS", "Heroku" and "Azure"</b>. See <a href="https://desolate-beyond-6545.herokuapp.com/work"
            target="_blank">My Work</a>.
-- question: For how many years am I doing this ?
-  answer: My total software experience is 9 years.
-          On "Ruby on Rails" its 3 years and on "Amazon Web Services" its 2 years.
 - question: Am I the best of all over there ?
-  answer: I will make efforts to be best for you.</p>
-          <p id="answer">Early this year (2015), I <b>achieved 4 out of 5 rating from a US client for my work </b>.
+  answer: I will make efforts to be best for you.<br>
+          Does'nt matter how much foolish or idiots we are are individually, collectively we can be genious for our end
+          users. <p id="answer">Early this year (2015), I <b>achieved 4 out of 5 rating from a US client for my work </b>.
           But I think I am still and would remain a student forever and keep the learning process going on.
 - question: Are my applications world class ?
   answer: No, they are end user class.
@@ -44,6 +42,9 @@
           Interacting with <b>"Rails Community"</b> world wide helps me to know it better.
           Contributing to <b>"Rails Open Source Project"</b> allows me to apply my knowledge.
           See <a href="https://github.com/atul-shimpi" target="_blank">My GitHub Profile</a>
+- question: For how many years am I doing this ?
+  answer: My total software experience is 9 years.
+          On "Ruby on Rails" its 3 years and on "Amazon Web Services" its 2 years.
 - question: Do I have experience of working remotely ?
   answer: Yes. Completed a 6 months assignment on <a href=" https://www.upwork.com" target="_blank">
           Upwork</a> - remote job provider company. I also have the infrastructure

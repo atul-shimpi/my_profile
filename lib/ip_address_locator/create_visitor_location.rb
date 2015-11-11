@@ -3,6 +3,10 @@ require 'visitor_location'
 require 'json'
 
 class CreateVisitorLocation
+  def self.create_all
+
+  end
+
   def self.create(visitor_id, visitor_ip_address)
 
     attr_white_list = %w[ dma_code asn city latitude country_code offset country region_code isp
