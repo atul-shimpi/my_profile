@@ -68,8 +68,8 @@
       <file leaf-file-name="introduction.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/introduction.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28601694" vertical-offset="315" max-vertical-offset="870">
-              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.2542373" vertical-offset="315" max-vertical-offset="870">
+              <caret line="29" column="118" selection-start-line="29" selection-start-column="118" selection-end-line="29" selection-end-column="118" />
               <folding />
             </state>
           </provider>
@@ -1084,8 +1084,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/introduction.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28601694" vertical-offset="315" max-vertical-offset="870">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.2542373" vertical-offset="315" max-vertical-offset="870">
+          <caret line="29" column="118" selection-start-line="29" selection-start-column="118" selection-end-line="29" selection-end-column="118" />
           <folding />
         </state>
       </provider>
