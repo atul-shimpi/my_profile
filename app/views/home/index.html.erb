@@ -2,7 +2,7 @@
 <div id= "title_name">atul</div>
 <div id= "title_surname">shimpi</div>
 <div id= "welcome">
-  Your "Ruby on Rails" and "Cloud" buddy. Even though I work on cloud, I am very down to earth &#128519;
+  "Ruby on Rails" and "cloud" developer. Even though I work on "cloud", I am very down to earth.
 </div>
 <div id= "welcome_hr"></div>
 <div id="profile_photo"></div>
@@ -19,21 +19,21 @@
   Email : shimpiatul@hotmail.com <br>
   Skype : shimpiatul
 </div>
-
+<div id="profile_photo2"></div>
 <div id="introduction_upper">
   <p><br>Hello,
   <br>Welcome to my site. Let me introduce myself..</p>
   <% each_introduction do |question_no, question, answer| %>
       <p id="question"><%= question %>
       <p id="answer"><%= answer.html_safe %></p>
-      <% break if question_no == 4 %>
+      <% break if question_no == 6 %>
   <% end %>
 </div>
 <br>
 <div id="introduction_lower">
   <br>
   <% each_introduction do |question_no, question, answer| %>
-      <% if question_no > 4 %>
+      <% if question_no > 6 %>
         <p id="question"><%= question %> </p>
         <p id="answer"><%= answer.html_safe %></p><br>
       <% end %>
