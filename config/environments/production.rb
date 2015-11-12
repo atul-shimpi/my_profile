@@ -76,5 +76,6 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+  config.force_ssl = false
 end
 ENV['NOT_IMPORTANT_VISITORS_IPs'] = '188.165.219.124 127.0.0.1'
