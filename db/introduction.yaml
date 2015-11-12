@@ -4,7 +4,7 @@
   answer: I do software consultancy.
             I design and develop Web-based and Cloud-Based software applications for start-up and medium size companies.
 - question: Why do I do this ?
-  answer: Work satisfaction and dreams. To fulfil my dreams.
+  answer: Work satisfaction and fulfiling my dreams.
           <br>It gives me immense pleasure in 'Being My Own Boss' by working in this way.
            <br>I want to travel all around world and enjoy the nature,
            experience different cultures, meet people and make friends and most importantly learn something from them.
@@ -15,7 +15,8 @@
           <b>"Test Driven Development (TDD) and Behaviour Driven Development (BDD)"</b> process. I use <b>"Test Units"
           ,"RSpec" and "Factory Girl"</b> for writing test cases.
 - question:
-  answer:  I follow <b>"Usability"</b> techniques for creating effective user interfaces. I have worked on <b>"MySql", "PostgrSql" and "mongodb"</b>.
+  answer:  I follow <b>"Usability"</b> techniques for creating effective user interfaces. I have worked on <b>"MySql",
+           "PostgrSql" and "mongodb"</b>.
           I can create rich UI's in HTML and dynamic UI's using javascript.
           <p>Basically everything between the front-end and back-end.
            <p>The site you are currently visiting is the result of all these technologies.

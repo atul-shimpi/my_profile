@@ -2,10 +2,12 @@
 <div id= "title_name">atul</div>
 <div id= "title_surname">shimpi</div>
 <div id= "welcome">
-  "Ruby on Rails" and "cloud" developer. Even though I work on "cloud", I am very down to earth.
+  I am "Ruby on Rails" and "cloud" freelancer. Even though I work on "cloud", I am very down to earth.
 </div>
 <div id= "welcome_hr"></div>
-<div id="profile_photo"></div>
+<div id="profile_photo_cont_1">
+  <div id="profile_photo"></div>
+</div>
 <div id="contact_details">
   <%= link_to('Work', work_path)%> |
   <%= link_to('Github Profile', 'https://github.com/atul-shimpi',
@@ -19,21 +21,24 @@
   Email : shimpiatul@hotmail.com <br>
   Skype : shimpiatul
 </div>
-<div id="profile_photo2"></div>
+<div id="profile_photo_cont_2">
+  <div id="profile_photo2"></div>
+</div>
+
 <div id="introduction_upper">
   <p><br>Hello,
   <br>Welcome to my site. Let me introduce myself..</p>
   <% each_introduction do |question_no, question, answer| %>
       <p id="question"><%= question %>
       <p id="answer"><%= answer.html_safe %></p>
-      <% break if question_no == 6 %>
+      <% break if question_no == 7 %>
   <% end %>
 </div>
 <br>
 <div id="introduction_lower">
   <br>
   <% each_introduction do |question_no, question, answer| %>
-      <% if question_no > 6 %>
+      <% if question_no > 7 %>
         <p id="question"><%= question %> </p>
         <p id="answer"><%= answer.html_safe %></p><br>
       <% end %>
