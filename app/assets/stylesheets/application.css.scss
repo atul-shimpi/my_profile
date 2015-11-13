@@ -18,3 +18,19 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.show{
+  width: 80%;
+}
+
+.show2 {
+  text-align: right;
+  color: gray;
+  padding:5px 10px 5px 5px;
+}
+
+.sections{
+  color: darkseagreen;
+  font-weight: bold;
+  height: 30px;
+}

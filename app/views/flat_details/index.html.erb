@@ -1,0 +1,23 @@
+<h3> Flat Details </h3>
+<table class="show" >
+  <% attributes = { Name: 'Atul Shimpi',
+                    :'Project Name' => 'Saarthi Souvenir, Building Gold, 1st Floor, flat no C2 101',
+                    :Rate => '5700 /-',
+                    :'Corporate Discount' => '100 /-',
+                    :'Total Cost' => '53,28,368 /-',
+                    :'Loan Amount' => '41,85,000 /-',
+                    :'Payment Made by bank' => '34,73,550 /-',
+                    :'Payment made by me' => '9,41,000 /-',
+                    :'Total Payment Made' => '44,14,550 /-',
+                    :'Balance' => '9,13,818 /- (Bank : 7,11,450, Self : 2,02,368 /-)'
+                  }
+  %>
+
+  <% attributes.each do |key, value| %>
+    <tr>
+      <td class="show2" > <%= key.to_s + ' : ' %> </td>
+      <td> <%= value %> </td>
+    </tr>
+  <% end %>
+
+</table>
