@@ -1,7 +1,5 @@
 class DropVisitorsLocation < ActiveRecord::Migration
   def change
-    drop_table :visitor_locations
-
     create_table :visitor_locations do |t|
       t.belongs_to :visitor
       t.string :dma_code, limit: 5
