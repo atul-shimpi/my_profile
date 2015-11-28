@@ -25,6 +25,7 @@ module MyProfile
     config.assets.compile = true
     config.serve_static_files = true
     config.time_zone = 'Mumbai'
+    config.autoload_paths += Dir["#{Rails.root}/lib/ip_address_locator"]
   end
 end
 

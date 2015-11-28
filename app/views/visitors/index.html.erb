@@ -1,7 +1,8 @@
-<%= render(  '/view_all',
+<%= render(  'partials/show_all',
              title: 'Site Visitors',
-             column_titles: ['Date', 'IP Address'],
-             models: @visitors,
-             attributes: ['remote_ip']
+             columns: ['Location', 'IP Address', 'Visited On'],
+             records: @visitors,
+             attributes: [:'visitor_location.place', :remote_ip, :visit_time_humanize],
+             actions: :none
            )
 %>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151104030353) do
+ActiveRecord::Schema.define(version: 20151128203142) do
 
   create_table "my_app_uis", force: :cascade do |t|
     t.integer "my_app_id",  limit: 4
@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 20151104030353) do
 
   create_table "my_apps", force: :cascade do |t|
     t.string "domain",       limit: 255
-    t.string "description",  limit: 1024
+    t.string "description",  limit: 2014
     t.string "technologies", limit: 255
   end
 
@@ -32,19 +32,21 @@ ActiveRecord::Schema.define(version: 20151104030353) do
     t.string  "dma_code",       limit: 5
     t.string  "asn",            limit: 10
     t.string  "city",           limit: 30
-    t.text    "latitude",       limit: 65535, null: false
-    t.text    "longitude",      limit: 65535, null: false
-    t.string  "country_code",   limit: 5,     null: false
+    t.decimal "latitude",                  precision: 10, scale: 4
+    t.decimal "longitude",                 precision: 10, scale: 4
+    t.string  "country_code",   limit: 5
     t.integer "offset",         limit: 4
-    t.string  "country",        limit: 25,    null: false
+    t.string  "country_name",   limit: 25
     t.string  "region_code",    limit: 5
-    t.string  "isp",            limit: 50,    null: false
+    t.string  "isp",            limit: 50
+    t.string  "time_zone",      limit: 25
     t.string  "area_code",      limit: 5
-    t.string  "continent_code", limit: 5,     null: false
-    t.string  "region",         limit: 25
+    t.string  "continent_code", limit: 5
+    t.string  "region_name",    limit: 25
     t.string  "postal_code",    limit: 25
     t.string  "country_code3",  limit: 5
-    t.string  "timezone",       limit: 15,    null: false
+    t.string  "metro_code",     limit: 5
+    t.string  "zip_code",       limit: 15
   end
 
   create_table "visitors", force: :cascade do |t|
