@@ -23,4 +23,10 @@ module ApplicationHelper
   def attr_foreign_key?(attr_name)
     attr_name[-3..-1].eql?('_id')
   end
+
+  def attr_image?(attr_name)
+    return false if attr_name.nil?
+
+    attr_name[-4..-1].eql?('.png')
+  end
 end

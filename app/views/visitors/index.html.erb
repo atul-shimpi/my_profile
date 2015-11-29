@@ -1,8 +1,8 @@
 <%= render(  'partials/show_all',
              title: 'Site Visitors',
-             columns: ['Location', 'IP Address', 'Visited On'],
+             columns: ['','Location', 'IP Address', 'Visited On'],
              records: @visitors,
-             attributes: [:'visitor_location.place', :remote_ip, :visit_time_humanize],
+             attributes: [:'visitor_location.flag', :'visitor_location.place', :remote_ip, :visit_time_humanize],
              actions: :none
            )
 %>

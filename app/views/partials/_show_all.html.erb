@@ -28,7 +28,13 @@
       <% attributes.each do |attribute| %>
         <% data = method_path(record, attribute) %>
         <% align = (data.number? ? 'right' : 'left') unless data.nil? %>
-        <td align=<%= align %> > <%= data %></td>
+        <% if attr_image?(data) %>
+
+          <td>  <%= image_tag(data, {onerror:"this.style.display='none'"}) %>  </td>
+
+        <% else %>
+          <td align=<%= align %> > <%= data %></td>
+         <% end %>
       <% end %>
 
       <% if actions.to_s.include?('R') %> <td> <%= link_to :View, record %> </td> <% end %>
