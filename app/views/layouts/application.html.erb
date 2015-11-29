@@ -8,9 +8,10 @@
 </head>
 <body>
 
-<% if controller_name.eql?('home') %> <div id="app_window" > <% end %>
-<% if controller_name.eql?('works') %> <div  id="app_window" style="height: 2860px" > <% end %>
-  <%= yield %>
+<% if controller_name.eql?('home') %> <div class="app_window" > <% end %>
+<% if controller_name.eql?('works') %> <div  class="app_window" style="height: 2860px" > <% end %>
+<% if controller_name.eql?('visitors') %> <div  class="app_window app_window2" > <% end %>
+<%= yield %>
 </div>
 <br>
 </body>

@@ -23,6 +23,7 @@
   </thead>
   <br>
 
+  <% 10.times do %>
   <% records.each do |record| %>
     <tr>
       <% attributes.each do |attribute| %>
@@ -41,5 +42,5 @@
       <% end %>
     </tr>
   <% end %>
-
+  <% end %>
 </table>

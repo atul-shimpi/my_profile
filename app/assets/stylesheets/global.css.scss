@@ -19,7 +19,7 @@ p {
     font-size: 12px;
 }
 
-#app_window{
+.app_window{
     width: 80%;
     height: 1300px;
    background-color: #f6f6f6;
@@ -29,6 +29,11 @@ p {
     position: relative;
     box-shadow: 10px 10px 5px #cbcbcb;
     #border: 2px solid #c7c2d1;
+}
+
+.app_window2{
+  height: 90%;
+  #position: absolute;
 }
 
 #side_bar{
