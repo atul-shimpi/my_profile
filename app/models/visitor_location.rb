@@ -3,8 +3,8 @@ class VisitorLocation < ActiveRecord::Base
 
   def place
     place_ = country_name
-    place_ += ',' + region_name if region_name.size > 0
-    place_ += ',' + city if city.size > 0
+    place_ += ', ' + region_name if region_name.size > 0
+    place_ += ', ' + city if city.size > 0
     place_
   end
 end
