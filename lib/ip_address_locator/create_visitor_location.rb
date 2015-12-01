@@ -23,8 +23,8 @@ class CreateVisitorLocation
     location = IPAddressLocation.get_location(visitor_ip_address)
 
     if location
-      ip_location = JSON.parse(location.gsub('=>', ':'))
-      ip_location_whitelist = ip_location.select { |key| attr_white_list.include?(key) }
+      #ip_location = JSON.parse(location.gsub('=>', ':'))
+      ip_location_whitelist = location.select { |key| attr_white_list.include?(key) }
       ip_location_whitelist[:visitor_id] = visitor_id
 
       VisitorLocation.create(ip_location_whitelist)
