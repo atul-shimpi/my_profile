@@ -1,15 +1,13 @@
 <%= render(  'partials/show_all',
              title: 'Site Visitors',
-             columns: ['',
-                       '',
+             columns: [ '',
                        'Location',
                        'Time Zone',
                        'IP Address',
                        'Visited On'
                        ],
              records: @visitors,
-             attributes: [:id,
-                          :'visitor_location.flag',
+             attributes: [:'visitor_location.flag',
                           :'visitor_location.place',
                           :'visitor_location.time_zone',
                           :remote_ip, :visit_time_humanize
