@@ -18,7 +18,7 @@ class VisitorsController < ApplicationController
 
     end_index = page_no * 15
     start_index = end_index - 15
-    @visitors = Visitor.all_important[start_index...end_index]
+    @visitors = Visitor.all_important.reverse_order![start_index...end_index]
 
     @pages = pages(Visitor.all_important.count, 15)
 
