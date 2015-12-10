@@ -1,13 +1,13 @@
-<h3><%= render 'partials/primary_task_title', title: title %></h3>
+<h3><%= render 'partials/ui_title', title: title %></h3>
 
 <table class='table table-striped table-condensed table-hover'>
 
   <% actions ||= :CRUD %>
 
   <% if actions.to_s.include?('C') %>
-    <div id="crud_menu_bar">
-      <div class="app_menu">  <%= link_to :New, new_url_from_model(records.model_name) %> </div>
-    </div>
+      <div id="crud_menu_bar">
+        <div class="app_menu">  <%= link_to :New, new_url_from_model(records.model_name) %> </div>
+      </div>
   <% end %>
 
   <% columns.push('') if actions.to_s.include?('R') %>
@@ -15,31 +15,35 @@
   <% columns.push('') if actions.to_s.include?('D') %>
 
   <thead>
-    <tr>
-      <% columns.each do |column_title| %>
+  <tr>
+    <% columns.each do |column_title| %>
         <th><%= column_title %></th>
-      <% end %>
-    </tr>
+    <% end %>
+  </tr>
   </thead>
   <br>
 
   <% records.each do |record| %>
-    <tr>
-      <% attributes.each do |attribute| %>
-        <% data = method_path(record, attribute) %>
-        <% align = (data.number? ? 'right' : 'left') unless data.nil? %>
-        <% if attr_image?(data) %>
-          <td>  <%= image_tag(data, {onerror:"this.style.display='none'"}) %>  </td>
-        <% else %>
-          <td align=<%= align %> > <%= data %></td>
-         <% end %>
-      <% end %>
+      <tr>
+        <% attributes.each do |attribute| %>
+            <% data = method_path(record, attribute) %>
+            <% align = (data.number? ? 'right' : 'left') unless data.nil? %>
+            <% if attr_image?(data) %>
+                <td>  <%= image_tag(data, {onerror:"this.style.display='none'"}) %>  </td>
+            <% else %>
+                <td align=<%= align %> > <%= data %></td>
+            <% end %>
+        <% end %>
 
-      <% if actions.to_s.include?('R') %> <td> <%= link_to :View, record %> </td> <% end %>
-      <% if actions.to_s.include?('U') %> <td> <%= link_to :Edit, edit_url_from_instance(record) %></td> <% end %>
-      <% if actions.to_s.include?('D') %> <td> <%= render 'partials/delete_path', record: record %> </td>
-      <% end %>
-    </tr>
+        <% if actions.to_s.include?('R') %> <td> <%= link_to :View, record %> </td> <% end %>
+        <% if actions.to_s.include?('U') %> <td> <%= link_to :Edit, edit_url_from_instance(record) %></td> <% end %>
+        <% if actions.to_s.include?('D') %> <td> <%= render 'partials/delete_path', record: record %> </td>
+        <% end %>
+      </tr>
   <% end %>
-  
+
 </table>
+
+<% if local_assigns[:page_links] %>
+  <%= render('partials/page_links', page_links) %>
+<% end %>

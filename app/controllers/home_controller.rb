@@ -1,4 +1,18 @@
 class HomeController < ApplicationController
+  before_filter :check_visitor_country, only: [:index]
+
+  def check_visitor_country
+    return if params.include?('xxx007')
+    visitor_host_ip = request.headers.include?(:HTTP_X_FORWARDED_FOR) ?
+        request.headers[:HTTP_X_FORWARDED_FOR] :
+        request.headers[:REMOTE_HOST]
+
+    visitor_location = IPAddressLocation.get_location('14.97.70.15')
+
+
+    render(plain: 'Site Restricted for your location') if visitor_location['country_code'].eql?('IN')
+  end
+
   def index
     # Save visitor to database
     # if web server is behind proxy/NAT, then HTTP_X_FORWARDED_FOR contains the IP of origin

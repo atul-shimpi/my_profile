@@ -29,4 +29,6 @@ module ApplicationHelper
 
     attr_name[-4..-1].eql?('.png')
   end
+
+
 end
