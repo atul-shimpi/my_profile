@@ -7,7 +7,7 @@ class HomeController < ApplicationController
         request.headers[:HTTP_X_FORWARDED_FOR] :
         request.headers[:REMOTE_HOST]
 
-    visitor_location = IPAddressLocation.get_location('14.97.70.15')
+    visitor_location = IPAddressLocation.get_location(visitor_host_ip)
 
 
     render(plain: 'Site Restricted for your location') if visitor_location['country_code'].eql?('IN')
