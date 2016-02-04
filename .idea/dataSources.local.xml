@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails my_profile: development" uuid="f3090eca-422a-4ba2-81f4-abc9f5eeca4a">
+      <user-name>postgres</user-name>
+      <user-password>dfd8dfc5dfc5dfdedf9bdf98df99df9e</user-password>
+    </data-source>
+    <data-source name="Rails my_profile: test" uuid="bf945c73-777c-486b-89d4-9747f22e1001" />
+    <data-source name="Rails my_profile: production" uuid="87bc8a37-de70-4adb-9720-2073579644fd">
+      <user-name>root</user-name>
+      <user-password>dfd8dfc5dfc5dfde</user-password>
+    </data-source>
+  </component>
+</project>

@@ -10,17 +10,17 @@ development:
   <<: *default
   database: my_profile_dev
 
+
 test:
   <<: *default
   database: my_profile_test
 
 production:
-  <<: *default
+ # <<: *default
   database: my_profile
-  #database: my_profile
-  #username: root
-  #password: root
-  #adapter: postgresql
-  #encoding: unicode
-  #pool: 5
+  username: root
+  password: root
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
 

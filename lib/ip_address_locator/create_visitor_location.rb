@@ -3,6 +3,8 @@ require 'visitor_location'
 require 'json'
 
 class CreateVisitorLocation
+
+
   def self.create_all
     Rails.logger.info('Getting visitors IP location started')
 

@@ -45,7 +45,7 @@ MyApp.create(domain: 'Cloud',
              technologies: technologies
 )
 
-100.times do
+5.times do
   Visitor.create(remote_ip: '180.76.15.143')
   Visitor.create(remote_ip: '62.219.8.233')
   Visitor.create(remote_ip: '82.80.230.228')
