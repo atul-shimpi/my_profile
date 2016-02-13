@@ -22,7 +22,7 @@ class HomeController < ApplicationController
                       request.headers[:REMOTE_HOST]
 
     puts 'Curent visitor ' + visitor_host_ip
-    unless Visitor.exists?(["remote_ip = ?", visitor_host_ip])
+    unless Visitor.exists?(["remote_ip = ? and created_at >= ?", visitor_host_ip, 1.day.ago])
       Visitor.create( remote_ip: visitor_host_ip,
                       remote_host: request.headers[:REMOTE_IP].nil? ? 'NA': request.headers[:REMOTE_IP],
                       server_name: request.headers[:SERVER_NAME],
