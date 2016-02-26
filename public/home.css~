@@ -1,0 +1,53 @@
+body { 
+  font-family:"Arial";
+  font-size:10pt;  
+}
+
+#wrapper {
+  margin: auto;
+  width:90%;
+  height:210px;
+  clear:both;
+  opacity: 0.9;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
+  width: 100%;
+}
+
+.divs {
+  background-color:black;
+  width:500px;
+  height:180px;
+  margin:auto;
+  margin-bottom:0;
+  border-radius: 6px;
+  float:left;
+  display: inline-block;	
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */			
+}
+
+#name{
+  color: rgb(244, 126, 126);
+  height: 70px;
+  width: 98%;
+  background-color:black;
+  margin: auto;
+  margin-bottom:0;
+  border-radius: 6px;
+  float:left;
+  display: inline-block;	
+  opacity: 0.9;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
+  padding: 1%;
+  text-align:center;
+}
+
+#expertise, #SkypeButton_Call_shimpiatul_1{
+  background-color:lightblue;
+  opacity: 0.8;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+  width: 48%; 
+  padding: 1%;
+} 
+ 
+ 

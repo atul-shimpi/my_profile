@@ -1,67 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>THello</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <style>
-  body {
-    background-color: #EFEFEF;
-    color: #2E2F30;
-    text-align: center;
-    font-family: arial, sans-serif;
-    margin: 0;
-  }
+  <head>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+  </head>
+  <body background="index.jpg" style="background-size: cover;">
+    
+    <div  id='name'>
+      <h1 style="margin:0"><font style="color:darkgrey">HI, I AM</font> ATUL SHIMPI</h1>
+	  <p style="color:lightgrey">I work as freelancing software developer.
+	  I am not the best, but right freelancer for you. I code and drive responsibly.
 
-  div.dialog {
-    width: 95%;
-    max-width: 33em;
-    margin: 4em auto 0;
-  }
-
-  div.dialog > div {
-    border: 1px solid #CCC;
-    border-right-color: #999;
-    border-left-color: #999;
-    border-bottom-color: #BBB;
-    border-top: #B00100 solid 4px;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
-    background-color: white;
-    padding: 7px 12% 0;
-    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
-  }
-
-  h1 {
-    font-size: 100%;
-    color: #730E15;
-    line-height: 1.5em;
-  }
-
-  div.dialog > p {
-    margin: 0 0 1em;
-    padding: 1em;
-    background-color: #F7F7F7;
-    border: 1px solid #CCC;
-    border-right-color: #999;
-    border-left-color: #999;
-    border-bottom-color: #999;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-top-color: #DADADA;
-    color: #666;
-    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
-  }
-  </style>
-</head>
-
-<body>
-  <!-- This file lives in public/404.html -->
-  <div class="dialog">
-    <div>
-      <h1>THello</h1>
-      <p>You may have mistyped the address or the page may have moved.</p>
     </div>
-    <p>If you are the application owner check the logs for more information.</p>
-  </div>
-</body>
+	
+	<div id="wrapper">
+	<div class="divs" id="expertise">      
+	<strong>My expertise are</strong>
+	<ul style="margin:5px; margin-left:2px;">
+          <li>Back-end : Ruby on Rails.
+             I am contributor to it.
+          <li>Front-end : Angular JS, React, HAML, SCSS, Coffee Script, HTML 5, CSS 
+          3, JQuery, Ajax, etc. 
+          <li>Database : MongoDB, MySql, PostgreSql
+          <li>Cloud : AWS, Microsoft Azure, Heroku.
+              Even though I work on cloud, I am very down to earth.  
+          <li>Testing (TDD): Rspec, Selenium, Mocha
+          <li>Source control: github, git, svn 
+          <li>Continuous integration and deployment:  Chef, puppet,jenkins
+          <li>Code review: Jira
+          <li>Development Methodology : Agile
+	<ul>		  
+    </div>
+	
+	<div class='divs' id="SkypeButton_Call_shimpiatul_1">  
+	  <ul>
+	    <li>To know why I am right for you, <a href="http://www.hiatul.com/?xxx007=true">click here</a>.
+        <li>To see my projects. <a href="http://www.hiatul.com/work?xxx007=true">click here</a>.
+        <li>To see my github profile, <a href="https://github.com/atul-shimpi">click here</a>.
+        <li>To talk on skype, note my skype id shimpiatul.         
+ <script type="text/javascript">
+ Skype.ui({
+ "name": "dropdown",
+ "element": "SkypeButton_Call_shimpiatul_1",
+ "participants": ["shimpiatul"]
+ });
+ </script>
+	<li>To talk on mobile, note my mobile no 91-9890979429
+        <li>To see my cv, click here.
+        <li>To download my cv, click here.
+        <li>To email me, click here.
+      </ul>
+    </div>
+
+	</div>
+  </body>
 </html>

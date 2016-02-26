@@ -1,4 +1,4 @@
-module HomesHelper
+module KnowMeHelper
   def each_introduction
     introductions = YAML.load_file(Rails.root + 'db/introduction.yaml')
 

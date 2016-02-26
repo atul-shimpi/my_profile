@@ -1,5 +1,5 @@
 <div id="client_area">
-  <%= link_to('Back', root_path) %>
+  <%= link_to('Back', root_path) if defined?(root_path)  %>
   <h6 id="ui_title">My Work</h6>
 
   <% MyApp.all.each do |my_app| %>
