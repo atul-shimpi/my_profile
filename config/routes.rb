@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get 'logs/index'
 
 
-  #root 'home#index'
+  root 'home#index'
   get 'work' => 'works#index'
 	get 'visitors' => 'visitors#index'
   get 'visitors/create' => 'know_me#save_visitor'

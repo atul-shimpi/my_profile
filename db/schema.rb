@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151215172328) do
+ActiveRecord::Schema.define(version: 20160523191102) do
 
   create_table "my_app_uis", force: :cascade do |t|
     t.integer "my_app_id",  limit: 4
@@ -42,7 +42,7 @@ ActiveRecord::Schema.define(version: 20151215172328) do
     t.string  "time_zone",      limit: 25
     t.string  "area_code",      limit: 5
     t.string  "continent_code", limit: 5
-    t.string  "region_name",    limit: 25
+    t.string  "region_name",    limit: 50
     t.string  "postal_code",    limit: 25
     t.string  "country_code3",  limit: 5
     t.string  "metro_code",     limit: 5
