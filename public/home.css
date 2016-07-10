@@ -40,8 +40,9 @@ body {
   filter: alpha(opacity=80); /* For IE8 and earlier */			
 }
 
+
 #name {
-    color: rgba(195, 65, 130, 0.98);
+    color: rgba(17, 212, 133, 0.98);
     height: 30px;
     width: 100%;
     background-color: #000000;
@@ -55,6 +56,14 @@ body {
     #padding-bottom: 15px;
     text-align: center;
     font-weight: bold;
+    #font-family: helvetica, verdana, arial, sans-serif;
+}
+
+#my_name{
+  padding: 0px;
+  margin: 0px;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
 }
 
 #title{
