@@ -151,15 +151,30 @@ div#profile_photo2{
 
 div#contact_info{
     width: 96%;
-    height: 55px;
+    height: 63px;
     position: absolute;
-    top:80%;
-    background-color: #1e92a8;
+    top:77%;
+    background-color: #e7b8b8;
     color: #000000;
     left: 5px;
     padding: 2px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
+}
+
+.contact-info-table {
+    width: 100%;
+    color: #2E2F30;
+    font-weight: bold;
+}
+
+.contact-info-row {
+    padding-top: 2px;
+    padding-left: 4px;
+}
+
+.contact-info-icon {
+    margin-right: 5px;
 }
 
 div#contact_info2 {
@@ -168,7 +183,7 @@ div#contact_info2 {
     position: absolute;
     top: 80%;
     background-color: #23b6cf;
-    #background-color: #dca2bd;
+    #background-color: #ba869b;
     color: #000000;
     left: 47%;
     padding: 2px;
