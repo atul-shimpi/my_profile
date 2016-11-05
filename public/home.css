@@ -154,7 +154,7 @@ div#contact_info{
     height: 63px;
     position: absolute;
     top:77%;
-    background-color: #e7b8b8;
+    background-color: #dcadad;
     color: #000000;
     left: 5px;
     padding: 2px;
@@ -171,6 +171,10 @@ div#contact_info{
 .contact-info-row {
     padding-top: 2px;
     padding-left: 4px;
+}
+
+.contact-info-link {
+    color: #1b6c80;
 }
 
 .contact-info-icon {
