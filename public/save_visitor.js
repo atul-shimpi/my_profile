@@ -9,17 +9,21 @@ function save_visitor() {
 
 
 var curContent = "work";
+var lastLi = $('div#menu-bar ul li:first');
 $("#" + curContent).show();
-$("#" + curContent).closest('li').addClass('activeLink');
+
+//$('div#menu-bar ul li:first').addClass('activeLink');
+lastLi.addClass('activeLink');
 
 $(function() {
     $("#menu-bar ul li a").click(function() {
         if (curContent.length) {
-         $("#" + curContent).hide();
+            lastLi.removeClass('activeLink');
+           $("#" + curContent).hide();
          }
         curContent = $(this).data("content");
-        $("#" + curContent).closest('li').addClass('activeLink');
-        $(this).closest('li').addClass('activeLink');
-         $("#" + curContent).show();
+        lastLi = $(this).closest('li');
+        lastLi.addClass('activeLink');
+        $("#" + curContent).show();
     });
 });
