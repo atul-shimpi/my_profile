@@ -192,7 +192,7 @@ div#profile_photo2{
     cursor: pointer;
 }
 
-#work, #github, #contact_info{
+#work, #github, #contact_info, #blogs{
     width: 96%;
     height: 63px;
     position: absolute;
