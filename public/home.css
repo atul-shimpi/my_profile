@@ -159,7 +159,7 @@ div#profile_photo2{
     height: 25px;
     position: absolute;
     top:75%;
-    background-color: #c1979e;
+    background-color: #000000;
     color: #000000;
     left: 5px;
     padding-left: 5px;
@@ -174,16 +174,16 @@ div#profile_photo2{
 
 #menu-bar  ul  li {
     float: left;
-    border-top: solid 3px #c1979e;
+    border-top: solid 3px #000000;
 }
 
 #menu-bar  li a {
     display: block;
-    color: black;
+    color: #cacaca;
     text-align: center;
     padding: 0 4px;
     text-decoration: none;
-    font-weight: bold;
+    #font-weight: bold;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -197,7 +197,7 @@ div#profile_photo2{
     height: 63px;
     position: absolute;
     top:81%;
-    background-color: #dcadad;
+    background-color: #e0e0e0;
     color: #000000;
     left: 5px;
     padding: 2px;
