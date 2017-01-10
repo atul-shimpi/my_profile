@@ -255,11 +255,15 @@ div#contact_info2 {
 #rspec-bg{
     background-color: #010203;
     padding: 3px;
-    color: lightslategrey;
+    color: lightgray;
 }
 
 #test-results {
-    color: #2bd4a1;
+    color: green;
     font-weight: bold;
     font-size: 14px;
+}
+
+.literal-string {
+    color: green;
 }

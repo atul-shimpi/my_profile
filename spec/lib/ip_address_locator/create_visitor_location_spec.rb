@@ -15,6 +15,8 @@ describe CreateVisitorLocation do
   it 'should create a new visitor location' do
     create (:visitor)
     CreateVisitorLocation.create(1, '199.21.99.207')
+
+    expect('himi').to be('igh')
   end
 
 end
