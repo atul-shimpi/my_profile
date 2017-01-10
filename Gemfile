@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "2.1.6"
 gem 'yaml_db'
 gem 'pg'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
